@@ -1,0 +1,42 @@
+.news-letter{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #4f3130;
+    margin-top: 50px;
+    text-align: center;
+    color: beige;
+}
+.inp{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp input{
+    width: 60%;
+    padding: 30px;
+    color: #aa7e58;
+    border: 1px solid #aa7e58;
+    border: none;
+    border-radius: 30px;
+}
+.inp button{
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    color: #aa7e58;
+    border: 1px solid #aa7e58;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    border: none;
+    font-style: bold;
+}
+.inp button:hover{
+    background-color: #aa7e58;
+    color: white;
+}
+.inp button:active{
+    transform: scale(0.9);
+}
